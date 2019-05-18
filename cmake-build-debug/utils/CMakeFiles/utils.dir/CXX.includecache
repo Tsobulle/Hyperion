@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../utils/include/random_number_generator.h
+memory
+-
+mutex
+-
+math.h
+-
+
+/home/ananas/CLionProjects/Hyperion/utils/src/random_number_generator.cpp
+random_number_generator.h
+/home/ananas/CLionProjects/Hyperion/utils/src/random_number_generator.h
+memory
+-
+iostream
+-
+random
+-
+thread
+-
+

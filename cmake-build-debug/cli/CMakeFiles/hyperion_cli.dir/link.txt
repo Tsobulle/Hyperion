@@ -1,0 +1,1 @@
+/usr/bin/c++   -pthread -fPIC -Wall   CMakeFiles/hyperion_cli.dir/main.cpp.o  -o ../hyperion_cli ../utils/libutils.a 

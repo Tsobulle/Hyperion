@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ananas/CLionProjects/Hyperion/cli/main.cpp
+exception
+-
+iostream
+-
+memory
+-
+../utils/include/random_number_generator.h
+/home/ananas/CLionProjects/Hyperion/utils/include/random_number_generator.h
+../utils/include/timing.h
+/home/ananas/CLionProjects/Hyperion/utils/include/timing.h
+
+/home/ananas/CLionProjects/Hyperion/utils/include/random_number_generator.h
+memory
+-
+mutex
+-
+math.h
+-
+
+/home/ananas/CLionProjects/Hyperion/utils/include/timing.h
+functional
+-
+chrono
+-
+iostream
+-
+
